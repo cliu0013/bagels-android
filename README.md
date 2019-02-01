@@ -6,7 +6,7 @@ Tapline: An android demo.
 
 IOS repo link: https://github.com/lcj420106/bagels-android
 
-Screenshot:
+Screenshot:![Screenshot](Demo-bagels-screenshot.png)
 
 Description: 
 Run on Pixel 2 XL API 28(Android 9, API 28).
