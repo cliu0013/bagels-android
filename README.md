@@ -1,7 +1,4 @@
 # bagels-android
-
-Demo-bagels
-
 Tapline: An android demo.
 
 IOS repo link: https://github.com/lcj420106/bagels-android
