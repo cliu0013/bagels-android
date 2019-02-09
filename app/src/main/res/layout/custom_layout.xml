@@ -33,6 +33,7 @@
         app:fontFamily="sans-serif-light" />
 
     <ToggleButton
+        android:onClick="like"
         android:id="@+id/toggle"
         android:layout_width="25dp"
         android:layout_height="25dp"
@@ -40,6 +41,7 @@
         android:layout_marginTop="210dp"
         android:layout_alignLeft="@+id/icons"
         android:layout_marginLeft="155dp"
+        android:background="@drawable/empty_heart"
         android:textOff=""
         android:textOn="" />
 </RelativeLayout>

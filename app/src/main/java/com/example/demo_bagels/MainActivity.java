@@ -14,6 +14,8 @@ import android.widget.GridView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import static com.example.demo_bagels.R.drawable.red_heart;
+
 public class MainActivity extends AppCompatActivity {
     /** GridView */
     GridView gridView;
@@ -26,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.bagel1, R.drawable.bagel2, R.drawable.bagel3, R.drawable.bagel4
     };
 
-    /** Toggle*/
-    ToggleButton toggleButton;
 
 
     @Override
@@ -68,8 +68,11 @@ public class MainActivity extends AppCompatActivity {
         /** BottomNavigation*/
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListenner);
+        bottomNav.setSelectedItemId(R.id.nav_home);
 
     }
+
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListenner =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -96,4 +99,8 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+
+    public void like(View view) {
+
+    }
 }
